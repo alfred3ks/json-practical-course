@@ -1,0 +1,77 @@
+Curso practico de JSON - JavaScript Object Notation.
+
+---¿Porque aprender JSON?
+
+- Formato popular para el intercambio de datos entre diferentes sistemas sin importar el lenguaje de programacion.
+- Bastante utilizado en REST APIs.
+- Es usado en Bases de datos.
+
+---¿Que es JSON?
+
+Abreviado de JavaScript Object Notation. Es un formato ligero de intercambio de datos. Formato basado en JavaScript pero puede ser usado por cualquier lenguaje de programacion. Facil de escribir. Usado en el mundo web como AJAX.
+
+---Tipos de datos de JSON: Porque como un lenguaje de programacion este formato tambien los tiene:
+
+- numbers: Integer y numeros flotantes
+- string: Caracteres Unicode, que colocaremos con dobles comillas "".
+- boolean: True o False, representa los dos estados.
+- arrays: Listas ordenadas que comienzan con sus indeice en cero.
+- objetos: Datos representados por pares de clave - valor.
+    {"nickname": "Alfred"}
+- null: Para datos no disponibles o que no existe aun.
+
+---Reglas para poder crear un archivo json:
+
+- Pares clave:valor, JSON esta conformado por datos en clave/valor:
+    name: "eugenia",
+    password: "eugenia123",
+    country: "spain",
+    age: 27
+
+Representaqcion de datos facil de leer y entender.
+
+- Las claves deben ir en doble comillas tambien: Si o si debe ser asi:
+    "name": "eugenia",
+    "password": "eugenia123",
+    "country": "spain",
+    "age": 27
+
+- Cualquier clave que creemos siempre, siempre debe tener un valor. Podemos crear una clave con un valor vacio:
+    "nickname": ""
+
+- Colocar todos estos clave/valor entre llaves: asi agrupamos todos los datos en una sola entidad.
+{
+    "name": "eugenia",
+    "password": "eugenia123",
+    "country": "spain",
+    "age": 27
+}
+
+- Para separar los claves valor unos de otros debemos usar coma, "," salvo el ultimo par clave valor que no llevara.
+
+- Podemos anidar objetos, uno dentro de otros:
+
+{
+    "name": "eugenia",
+    "password": "eugenia123",
+    "address": {
+        "city": "london",
+        "street": "baker street 123"
+    },
+    "age": 27
+}
+
+- Las extensiones de los archivos deben ser .json:
+
+    datos.json
+
+    mydata.json
+
+    users.json
+
+- Cuando enviamos datos de un sistema a otro por lo general le damos informacion al otro sistema que datos le estamos enviando, eso se conoce como mime type, o el tipo de datos de archivos que estoy enviando, en json es comun usar:
+
+    application/json
+
+Estos son los conceptos basicos y ahora vamos a ver unos ejemplo.
+
