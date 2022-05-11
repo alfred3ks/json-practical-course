@@ -1,0 +1,34 @@
+{
+    "name": "Rayn",
+    "lastname": "Ray",
+    "age": 25,
+    "nickname": "Rayn123",
+    "hobbies": [
+        "run",
+        "code",
+        "eat"
+    ],
+    "address": {
+        "street": "123 Main St",
+        "city": "New York"
+    },
+    "married": true,
+    "friends": [
+        {
+            "name": "Joe",
+            "nickname": "Joe123"
+        },
+        {
+            "name": "Martin",
+            "nickname": "Martin123"
+        },
+        {
+            "name": "Julliet",
+            "nickname": "Julliet123"
+        },
+        {
+            "name": "Dan",
+            "nickname": "Dan123"
+        }
+    ]
+}
